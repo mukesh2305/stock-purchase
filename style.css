@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  background-color: rgb(109 74 145);
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  /* padding-top: 1rem; */
+}
+input {
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  border-radius: 100px;
+  text-align: center;
+  outline: none;
+}
+button {
+  padding: 0.5rem 2rem;
+  border-radius: 100px;
+  font-weight: bold;
+  background-color: aqua;
+}
+
+button:hover {
+  background-color: chartreuse;
+  color: white;
+  cursor: pointer;
+}
+
+#output-box {
+  font-weight: bolder;
+  padding-top: 1rem;
+  font-size: 2rem;
+}
